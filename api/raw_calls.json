@@ -1,0 +1,79 @@
+{
+    "auth": "none",
+    "calls": {
+        "ABO": {
+            "get_headers": false,
+            "initialized": true,
+            "method": "post",
+            "name": "Save project Things",
+            "params": {
+                "ABR": {
+                    "allow_blank": true,
+                    "doc": "Project id of the Bubble project to setup",
+                    "key": "project_id",
+                    "private": true,
+                    "value": ""
+                },
+                "ABS": {
+                    "allow_blank": true,
+                    "doc": "",
+                    "key": "comments",
+                    "private": true,
+                    "value": ""
+                },
+                "ACA": {
+                    "allow_blank": true,
+                    "key": "users",
+                    "private": true,
+                    "value": ""
+                },
+                "ACB": {
+                    "allow_blank": true,
+                    "key": "user_images",
+                    "private": true,
+                    "value": ""
+                },
+                "ACC": {
+                    "allow_blank": true,
+                    "key": "notifications",
+                    "private": true,
+                    "value": ""
+                },
+                "ACD": {
+                    "allow_blank": true,
+                    "key": "posts",
+                    "private": true,
+                    "value": ""
+                },
+                "ACE": {
+                    "allow_blank": true,
+                    "key": "messages",
+                    "private": true,
+                    "value": ""
+                },
+                "ACF": {
+                    "allow_blank": true,
+                    "key": "matches",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1663083745390x763149045569421300.plugin_api.ABO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABO\":{\"caption\":\"Save project Thing\",\"fields\":{\"_p_body.response.id\":{\"ret_value\":\"number\",\"caption\":\"body response id\",\"sample_value\":3,\"path\":[\"body\",\"response\",\"id\"]},\"_p_body.response.bleap_user_product_id\":{\"ret_value\":\"number\",\"caption\":\"body response bleap_user_product_id\",\"sample_value\":185,\"path\":[\"body\",\"response\",\"bleap_user_product_id\"]},\"_p_body.response.posts\":{\"ret_value\":\"number\",\"caption\":\"body response posts\",\"sample_value\":5,\"path\":[\"body\",\"response\",\"posts\"]},\"_p_body.response.notifications\":{\"ret_value\":\"number\",\"caption\":\"body response notifications\",\"sample_value\":3,\"path\":[\"body\",\"response\",\"notifications\"]},\"_p_body.response.messages\":{\"ret_value\":\"number\",\"caption\":\"body response messages\",\"sample_value\":6,\"path\":[\"body\",\"response\",\"messages\"]},\"_p_body.response.comments\":{\"ret_value\":\"number\",\"caption\":\"body response comments\",\"sample_value\":2,\"path\":[\"body\",\"response\",\"comments\"]},\"_p_body.response.matches\":{\"ret_value\":\"number\",\"caption\":\"body response matches\",\"sample_value\":7,\"path\":[\"body\",\"response\",\"matches\"]},\"_p_body.response.users\":{\"ret_value\":\"number\",\"caption\":\"body response users\",\"sample_value\":1,\"path\":[\"body\",\"response\",\"users\"]},\"_p_body.response.user_images\":{\"ret_value\":\"number\",\"caption\":\"body response user_images\",\"sample_value\":2,\"path\":[\"body\",\"response\",\"user_images\"]},\"_p_body.response.total\":{\"ret_value\":\"number\",\"caption\":\"body response total\",\"sample_value\":26,\"path\":[\"body\",\"response\",\"total\"]},\"_p_body.response.created_at\":{\"ret_value\":\"text\",\"caption\":\"body response created_at\",\"sample_value\":\"2022-09-14T10:55:24.722-03:00\",\"path\":[\"body\",\"response\",\"created_at\"]},\"_p_body.response.updated_at\":{\"ret_value\":\"text\",\"caption\":\"body response updated_at\",\"sample_value\":\"2022-09-14T10:55:24.722-03:00\",\"path\":[\"body\",\"response\",\"updated_at\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\\\\"response\\\\\\\":{\\\\\\\"id\\\\\\\":3,\\\\\\\"bleap_user_product_id\\\\\\\":185,\\\\\\\"posts\\\\\\\":5,\\\\\\\"notifications\\\\\\\":3,\\\\\\\"messages\\\\\\\":6,\\\\\\\"comments\\\\\\\":2,\\\\\\\"matches\\\\\\\":7,\\\\\\\"users\\\\\\\":1,\\\\\\\"user_images\\\\\\\":2,\\\\\\\"total\\\\\\\":26,\\\\\\\"created_at\\\\\\\":\\\\\\\"2022-09-14T10:55:24.722-03:00\\\\\\\",\\\\\\\"updated_at\\\\\\\":\\\\\\\"2022-09-14T10:55:24.722-03:00\\\\\\\"}}\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "[API_URL]/1/new-product-log",
+            "url_params": {
+                "ACH": {
+                    "key": "API_URL",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            },
+            "wrap_error": true
+        }
+    },
+    "human": "Bleap API",
+    "token_param_name": ""
+}
